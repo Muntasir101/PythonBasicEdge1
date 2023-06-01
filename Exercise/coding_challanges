@@ -1,0 +1,50 @@
+Challenge 1:
+1. Customer need to purchase more than 1000 tk for discount
+2. Customer age less than 50 years and
+3. Male customer will get "Cake" and Female will get "Chocolate" as free and
+4. Payment method on cash will get 10% discount, card 20%
+
+Take input from user are purchase amount, age, gender and payment method.
+Now calculate the amount that customer will pay.
+
+Test Scenario:
+Combination 1: purchase(1001) and age(49) and gender(Male) and payment method(Cash)
+               Eligible : Cake
+Combination 2: purchase(1001) and age(49) and gender(Female) and payment method(Cash)
+               Eligible : Chocolate
+Combination 3: purchase(1001) and age(49) and gender(Male) and payment method(Card)
+               Eligible : Cake
+Combination 4: purchase(1001) and age(49) and gender(Female) and payment method(Card)
+               Eligible: Chocolate
+
+Combination 5: purchase(1000) and age(50) and gender(Male) and payment method(Cash)
+               Not Eligible
+Combination 6: purchase(1000) and age(50) and gender(Female) and payment method(Cash)
+               Not Eligible
+Combination 7: purchase(1000) and age(50) and gender(Male) and payment method(Card)
+               Not Eligible
+Combination 8: purchase(1000) and age(50) and gender(FeMale) and payment method(Card)
+               Not Eligible
+
+Combination 9: purchase(1000) and age(49) and gender(Male) and payment method(Cash)
+               Not Eligible
+Combination 10: purchase(1000) and age(49) and gender(Female) and payment method(Cash)
+               Not Eligible
+Combination 11: purchase(1000) and age(49) and gender(Male) and payment method(Card)
+               Not Eligible
+Combination 12: purchase(1000) and age(49) and gender(FeMale) and payment method(Card)
+               Not Eligible
+
+ Combination 13: purchase(1001) and age(51) and gender(Male) and payment method(Cash)
+               Not Eligible
+Combination 14: purchase(1001) and age(51) and gender(Female) and payment method(Cash)
+               Not Eligible
+Combination 15: purchase(1001) and age(51) and gender(Male) and payment method(Card)
+               Not Eligible
+Combination 16: purchase(1001) and age(51) and gender(FeMale) and payment method(Card)
+               Not Eligible
+
+
+
+Eligible
+Not Eligible
